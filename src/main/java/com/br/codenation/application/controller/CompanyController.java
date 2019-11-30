@@ -22,4 +22,6 @@ public class CompanyController {
     public ResponseEntity getCompanies(){
         return ResponseEntity.ok(companyService.findAllCompanies());
     }
+
+    //TODO media salarial
 }
